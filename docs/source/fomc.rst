@@ -13,27 +13,24 @@ Speaker-level information
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Speakers in this dataset are FOMC members, indexed by their name as recorded in the transcripts.
-
-* id: name of the speaker
-* chair: (boolean) is speaker FOMC Chair
-* vice_chair: (boolean) is speaker FOMC Vice-Chair
+    * id: name of the speaker
+    * chair: (boolean) is speaker FOMC Chair
+    * vice_chair: (boolean) is speaker FOMC Vice-Chair
 
 Utterance-level information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 For each utterance, we provide:
-
-* id: index of the utterance (concatenating the meeting date with the utterance’s sequence position)
-* speaker: the speaker who authored the utterance
-* conversation_id: ID of meeting
-* reply_to: id of the sequentially prior utterance (None for the first utterance of a meeting)
-* text: textual content of the utterance
-* timestamp: calculated value based off the date of the meeting and the speech index
+    * id: index of the utterance (concatenating the meeting date with the utterance’s sequence position)
+    * speaker: the speaker who authored the utterance
+    * conversation_id: ID of meeting
+    * reply_to: id of the sequentially prior utterance (None for the first utterance of a meeting)
+    * text: textual content of the utterance
+    * timestamp: calculated value based off the date of the meeting and the speech index
 
 Metadata for utterances include:
-
-* speech_index: index of utterance in the context of the conversation
-* parsed: parsed version of the utterance text, represented as a SpaCy Doc
+    * speech_index: index of utterance in the context of the conversation
+    * parsed: parsed version of the utterance text, represented as a SpaCy Doc
 
 Conversational-level information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
