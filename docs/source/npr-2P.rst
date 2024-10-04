@@ -9,6 +9,15 @@ Bodhisattwa Prasad Majumder, Shuyang Li, Jianmo Ni, and Julian McAuley. 2020. `I
 
 Please cite this paper when using this corpus in your research.
 
+Data Usage
+-----------
+
+The original dataset can be found on `Kaggle <https://www.kaggle.com/datasets/shuyangli94/interview-npr-media-dialog-transcripts?select=utterances-2sp.csv>`_
+
+Dataset can also be accessed `here <https://drive.google.com/file/d/1Yle2eq0VFPXCmKGaeht5bSZujasVmdV_/view?usp=sharing>`_
+
+Convert the NPR-2P dataset into ConvoKit format using this notebook `Converting the Interview 2P Dataset into the ConvoKit Format <https://github.com/CornellNLP/ConvoKit/blob/master/examples/dataset-examples/npr_2p/npr_to_convokit.ipynb>`_
+
 Dataset Details
 ---------------
 
@@ -39,8 +48,8 @@ Conversations are indexed by the id of the first utterance that appears in the c
     * title: the title of this episode
     * date: the date this episode aired
 
-Usage
------
+Corpus Usage
+-------------
 To download directly with ConvoKit:
 
 >>> from convokit import Corpus, download
@@ -62,12 +71,3 @@ Contact
 ^^^^^^^
 
 Please email any questions to Andrea (aww66@cornell.edu), Lucy (lj287@cornell.edu), or Rebecca (rmh327@cornell.edu).
-
-Files
-^^^^^^^
-
-The original dataset can be found on `Kaggle <https://www.kaggle.com/datasets/shuyangli94/interview-npr-media-dialog-transcripts?select=utterances-2sp.csv>`_
-
-Dataset `Access <https://drive.google.com/file/d/1Yle2eq0VFPXCmKGaeht5bSZujasVmdV_/view?usp=sharing>`_
-
-Cleaning/Conversion `Script <https://drive.google.com/file/d/1O8WWYJ6iHSiW7II2yqa3mxi3XO-B0zxf/view?usp=sharing>`_

@@ -1,10 +1,20 @@
 Federal Open Market Committee (FOMC) Corpus
 ===========================================
 
-Transcripts of recurring meetings of the Federal Reserve’s Open Market Committee (FOMC), where important aspects of U.S. monetary policy are decided, covering the period 1977-2008. (108,504 conversational exchanges between 364 speakers of FOMC board members in 268 meetings). 
+This dataset contains transcripts of recurring meetings of the Federal Reserve’s Open Market Committee (FOMC), 
+where important aspects of U.S. monetary policy are decided, covering the period 1977-2008. 
+The dataset contains a total of 108,504 conversational exchanges between 364 speakers of FOMC board members in 268 meetings. 
 
-Distributed together with:
+Data distributed together with:
 `Talk it up or play it down? (Un)expected correlations between (de-)emphasis and recurrence of discussion points in consequential U.S. economic policy meetings <https://chenhaot.com/papers/de-emphasis-fomc.html>`_. Chenhao Tan and Lillian Lee. Presented in Text As Data 2016.
+Please cite this paper when using this corpus in your research.
+
+Data Usage
+-----------
+
+The original dataset can be downloaded `here <https://chenhaot.com/pages/de-emphasis-fomc.html>`_.
+
+Convert the FOMC dataset into ConvoKit format using this notebook `Converting FOMC Dataset into the ConvoKit Format <https://github.com/CornellNLP/ConvoKit/blob/master/examples/dataset-examples/fomc/fomc_to_convokit.ipynb>`_
 
 Dataset details
 ---------------
@@ -37,8 +47,8 @@ Conversational-level information
 
 Conversations are indexed by a string representing the meeting date. 
 
-Usage
------------
+Corpus Usage
+-------------
 
 To download directly with ConvoKit:
 
